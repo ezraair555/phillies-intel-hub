@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phillies-intel-hub"
+version = "0.1.0"
+description = "Philadelphia Phillies analytics with Baseball Savant/MLB Statcast integration"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "John C. Vallier", email = "john.vallier+openclaw@gmail.com"}
+]
+requires-python = ">=3.8"
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "requests>=2.28.0",
+    "plotly>=5.15.0",
+    "beautifulsoup4>=4.11.0",
+    "lxml>=4.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ezraair555/phillies-intel-hub"
+Documentation = "https://github.com/ezraair555/phillies-intel-hub#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+phillies_intel_hub = ["data/sample_data.py"]

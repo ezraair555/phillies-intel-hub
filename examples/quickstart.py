@@ -9,7 +9,7 @@ viz = Visualizations()
 
 # Load sample data
 games = sample_data.Games
-players = sample_data.PhillysPlayers
+players = sample_data.PhilliesPlayers
 statcast = sample_data.StatcastData
 win_prob = sample_data.WinProbData
 
