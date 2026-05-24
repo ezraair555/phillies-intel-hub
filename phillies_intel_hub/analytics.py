@@ -708,14 +708,7 @@ class PhilliesAnalytics:
                 'Seranthony Domínguez 2.0 IP, 0 R, 0 H, 3 K (Save)'
             ]
         }
-            'defense': 'Clean defense, 0 errors',
-            'win_probability_shift': {'start': 0.50, 'end': 0.85, 'peak': 0.92},
-            'key_plays': [
-                'Bryce Harper HR (6th inning, 2-run)',
-                'J.T. Realmuto 2B (5th inning)',
-                'Seranthony Domínguez 1.0 IP, 0 ER (9th inning)'
-            ]
-        }
+            
         
         return report
     
