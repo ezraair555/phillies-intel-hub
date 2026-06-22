@@ -9,7 +9,7 @@ description = "Philadelphia Phillies analytics with Baseball Savant/MLB Statcast
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "John C. Vallier", email = "john.vallier+openclaw@gmail.com"}
+    {name = "EzraAir555", email = "ezraair555@gmail.com"}
 ]
 requires-python = ">=3.8"
 dependencies = [
