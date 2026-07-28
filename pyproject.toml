@@ -30,3 +30,8 @@ where = ["."]
 
 [tool.setuptools.package-data]
 phillies_intel_hub = ["data/sample_data.py"]
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: tests that hit live external APIs (MLB Stats, Savant, ESPN)",
+]
